@@ -1,14 +1,14 @@
 package exercicio2;
 
 public class ContaPoupanca extends ContaBancaria{
-    protected int diaRendimento;
+    protected double diaRendimento;
 
-    public ContaPoupanca(int diaRendimento, String cliente, int numConta, double saldo) {
+    public ContaPoupanca(double diaRendimento, String cliente, int numConta, double saldo) {
         super(cliente, numConta, saldo);
         this.diaRendimento = diaRendimento;
     }
     
-    public int getDiaRendimento() {
+    public double getDiaRendimento() {
         return diaRendimento;
     }
 
