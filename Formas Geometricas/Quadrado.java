@@ -3,8 +3,9 @@ package exinterface;
 public class Quadrado extends FormaGeometrica implements IForma, IBidimensional {
     protected double lado;
 
-    public Quadrado(double perimetro, double area) {
+    public Quadrado(double perimetro, double area, double lado) {
         super(perimetro, area);
+        this.lado = lado;
     }
 
     public double getLado() {
