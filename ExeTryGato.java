@@ -10,7 +10,7 @@ public class ExeTryGato {
         catch(NullPointerException e){ 
             System.out.println("Desculpe!" + " A string não pode ser null... Fuleco faleceu");
         }
-        finally{ //se cair no try ou no catch *insira um palavrão, vai cair aqui tmb obrigatoriamente
+        finally{ //se cair no try ou no catch *, vai cair aqui tmb obrigatoriamente
             System.out.println("Passei por aqui!");
         }
     }
